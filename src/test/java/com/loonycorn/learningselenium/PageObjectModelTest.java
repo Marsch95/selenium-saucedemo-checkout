@@ -57,7 +57,7 @@ public class PageObjectModelTest {
     @Severity(SeverityLevel.BLOCKER)
     @Link("https://www.saucedemo.com/")
     @Tag("login")
-    @Owner("Charles Darwin1")
+    @Owner("Charles Darwin")
     @Step("Login and verify")
     @Test
     public void testLogin() {
