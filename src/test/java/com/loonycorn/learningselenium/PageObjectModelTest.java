@@ -43,13 +43,13 @@ public class PageObjectModelTest {
         driver.get(SITE);
     }
 
-    private static void delay() {
+    /*private static void delay() {
         try {
             Thread.sleep(3000);
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
         }
-    }
+    }*/
 
     @Feature("Login flow")
     @Story("Login")
